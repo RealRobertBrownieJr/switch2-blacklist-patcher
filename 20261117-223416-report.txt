@@ -1,0 +1,251 @@
+blacklist-tool v1.0.0 (Switch 2), firmware 23.0.1
+
+System data 0400000000000828
+  blacklist.json, 13172 bytes
+
+BCAT 040000000000102E through bcat:s
+  Opened via bcat:s
+  Directories (1): blacklist
+  blacklist/blacklist.json, 14399 bytes
+
+BCAT 040000000000102E save 8000000000010005, read directly
+  Found: space System, type System (0), save 8000000000010005, 2113536 bytes
+  /directories: blacklist
+  blacklist.json, 14399 bytes
+
+Installed system titles (NCM)
+  FunctionBlackList 0400000000000828 installed: v 0x54007730
+  SystemUpdate 0400000000000816: 23.0.1-30012 (0x5C01753C)
+  It lists RebootlessSystemUpdateVersion v 0x54007730, attributes 0x2 (Rebootless)
+  It lists FunctionBlackList v 0x54007730, attributes 0x2 (Rebootless)
+  Installed FunctionBlackList matches the SystemUpdate.
+  Rebootless version (Support page): "6" (6)
+
+pl:s (sdb)
+  Loaded blacklist version: 13
+
+Summary
+  System data version: 10
+  BCAT version:        13
+  In effect: BCAT copy
+
+Records in system data (version 10, compatibility_version 1): 52
+    0 application 01005270232F2000 Launch SystemUpdateRequired
+      system 20.3.0  firmware is above it
+    1 application 01001300232F4000 Launch SystemUpdateRequired
+      system 20.3.0  firmware is above it
+    2 application 010099C022B96000 Launch ApplicationUpdateRequired
+      app v0 (0.0.0)  
+    3 application 0100FD8022DAA000 Launch ApplicationUpdateRequired
+      app v0 (0.0.0)  
+    4 application 0100A3D008C5C000 Launch ApplicationUpdateRequired
+      app v720896 (11.0.0)  
+    5 application 01008F6008C5E000 Launch ApplicationUpdateRequired
+      app v720896 (11.0.0)  
+    6 application 010049900F546000 Launch ApplicationUpdateRequired
+      app v327680 (5.0.0)  
+    7 application 0100ED000D390000 Launch ApplicationUpdateRequired
+      app v196608 (3.0.0)  
+    8 application 010062200D392000 Launch ApplicationUpdateRequired
+      app v0 (0.0.0)  
+    9 application 0100A8E016236000 Launch ApplicationUpdateRequired
+      app v0 (0.0.0)  
+   10 application 01007E3006DDA000 Launch ApplicationUpdateRequired
+      app v327680 (5.0.0)  
+   11 application 0100152000022000 Launch ApplicationUpdateRequired
+      app v1245184 (19.0.0)  
+   12 application 01007EF00011E000 Launch ApplicationUpdateRequired
+      app v786432 (12.0.0)  
+   13 application 0100F2C0115B6000 Launch ApplicationUpdateRequired
+      app v393216 (6.0.0)  
+   14 application 01006F8002326000 Launch ApplicationUpdateRequired
+      app v1835008 (28.0.0)  
+   15 application 0100F4C009322000 Launch ApplicationUpdateRequired
+      app v196608 (3.0.0)  
+   16 application 010015100B514000 Launch ApplicationUpdateRequired
+      app v65536 (1.0.0)  
+   17 application 01001CB0106F8000 Launch ApplicationUpdateRequired
+      app v131072 (2.0.0)  
+   18 application 0100A66003384000 Launch Prohibited
+      
+   19 application 0100C8E0113F0000 Launch Prohibited
+      
+   20 application 01004040033CE000 Launch Prohibited
+      
+   21 application 0100DD6013D34000 Launch Prohibited
+      
+   22 application 0100C090153B4000 Launch Prohibited
+      
+   23 application 01003A200BD8A000 Launch Prohibited
+      
+   24 application 01003A400C3DA000 Launch Prohibited
+      
+   25 application 040078001CCF6000 Launch ApplicationUpdateRequired
+      app v0 (0.0.0)  
+   26 application 0400DC401FCE6000 Launch ApplicationUpdateRequired
+      app v0 (0.0.0)  
+   27 application 0400CBA0221EA000 Launch ApplicationUpdateRequired
+      app v0 (0.0.0)  
+   28 application 040003901FBC2000 Launch ApplicationUpdateRequired
+      app v0 (0.0.0)  
+   29 application 04009DE020850000 Launch ApplicationUpdateRequired
+      app v0 (0.0.0)  
+   30 application 04003DC020784000 Launch ApplicationUpdateRequired
+      app v0 (0.0.0)  
+   31 application 0400CA40208C8000 Launch ApplicationUpdateRequired
+      app v0 (0.0.0)  
+   32 application 04009570209F8000 Launch ApplicationUpdateRequired
+      app v0 (0.0.0)  
+   33 application 0400F6D020A02000 Launch ApplicationUpdateRequired
+      app v0 (0.0.0)  
+   34 application 0400408021236000 Launch ApplicationUpdateRequired
+      app v0 (0.0.0)  
+   35 application 04000470212CE000 Launch ApplicationUpdateRequired
+      app v0 (0.0.0)  
+   36 application 040047D020DB2000 Launch ApplicationUpdateRequired
+      app v0 (0.0.0)  
+   37 application 0400BBB020FF0000 Launch ApplicationUpdateRequired
+      app v0 (0.0.0)  
+   38 application 0400E23021102000 Launch ApplicationUpdateRequired
+      app v0 (0.0.0)  
+   39 application 0400FED0215A4000 Launch ApplicationUpdateRequired
+      app v0 (0.0.0)  
+   40 application 0400E140216D4000 Launch ApplicationUpdateRequired
+      app v0 (0.0.0)  
+   41 application 04006CC0223D2000 Launch ApplicationUpdateRequired
+      app v0 (0.0.0)  
+   42 application 0400DCC0223F8000 Launch ApplicationUpdateRequired
+      app v0 (0.0.0)  
+   43 application 04005C902322C000 Launch ApplicationUpdateRequired
+      app v0 (0.0.0)  
+   44 application 0400E32022656000 Launch ApplicationUpdateRequired
+      app v0 (0.0.0)  
+   45 application 04008980227DC000 Launch ApplicationUpdateRequired
+      app v0 (0.0.0)  
+   46 application 04005CC022C9E000 Launch ApplicationUpdateRequired
+      app v0 (0.0.0)  
+   47 application 0400959022CA2000 Launch ApplicationUpdateRequired
+      app v0 (0.0.0)  
+   48 application 0400CE7022F4A000 Launch ApplicationUpdateRequired
+      app v0 (0.0.0)  
+   49 application 0400F4E022F4C000 Launch ApplicationUpdateRequired
+      app v0 (0.0.0)  
+   50 application 04003FB022F4E000 Launch ApplicationUpdateRequired
+      app v0 (0.0.0)  
+   51 application 0400EBD0236AE000 Launch ApplicationUpdateRequired
+      app v0 (0.0.0)  
+
+Records in BCAT (bcat:s) (version 13, compatibility_version 1): 56
+    0 application 0100C3601518C000 Launch SystemUpdateRequired
+      system 23.0.1  applies to this firmware
+    1 application 0100C3601518C000 Launch ApplicationUpdateRequired
+      app v1638400 (25.0.0)  
+    2 application 0100C9100B06A000 Launch SystemUpdateRequired
+      system 23.0.1  applies to this firmware
+    3 application 0100B4B00F9F6000 Launch SystemUpdateRequired
+      system 23.0.1  applies to this firmware
+    4 application 01005270232F2000 Launch SystemUpdateRequired
+      system 20.3.0  firmware is above it
+    5 application 01001300232F4000 Launch SystemUpdateRequired
+      system 20.3.0  firmware is above it
+    6 application 010099C022B96000 Launch ApplicationUpdateRequired
+      app v0 (0.0.0)  
+    7 application 0100FD8022DAA000 Launch ApplicationUpdateRequired
+      app v0 (0.0.0)  
+    8 application 0100A3D008C5C000 Launch ApplicationUpdateRequired
+      app v720896 (11.0.0)  
+    9 application 01008F6008C5E000 Launch ApplicationUpdateRequired
+      app v720896 (11.0.0)  
+   10 application 010049900F546000 Launch ApplicationUpdateRequired
+      app v327680 (5.0.0)  
+   11 application 0100ED000D390000 Launch ApplicationUpdateRequired
+      app v196608 (3.0.0)  
+   12 application 010062200D392000 Launch ApplicationUpdateRequired
+      app v0 (0.0.0)  
+   13 application 0100A8E016236000 Launch ApplicationUpdateRequired
+      app v0 (0.0.0)  
+   14 application 01007E3006DDA000 Launch ApplicationUpdateRequired
+      app v327680 (5.0.0)  
+   15 application 0100152000022000 Launch ApplicationUpdateRequired
+      app v1245184 (19.0.0)  
+   16 application 01007EF00011E000 Launch ApplicationUpdateRequired
+      app v786432 (12.0.0)  
+   17 application 0100F2C0115B6000 Launch ApplicationUpdateRequired
+      app v393216 (6.0.0)  
+   18 application 01006F8002326000 Launch ApplicationUpdateRequired
+      app v1835008 (28.0.0)  
+   19 application 0100F4C009322000 Launch ApplicationUpdateRequired
+      app v196608 (3.0.0)  
+   20 application 010015100B514000 Launch ApplicationUpdateRequired
+      app v65536 (1.0.0)  
+   21 application 01001CB0106F8000 Launch ApplicationUpdateRequired
+      app v131072 (2.0.0)  
+   22 application 0100A66003384000 Launch Prohibited
+      
+   23 application 0100C8E0113F0000 Launch Prohibited
+      
+   24 application 01004040033CE000 Launch Prohibited
+      
+   25 application 0100DD6013D34000 Launch Prohibited
+      
+   26 application 0100C090153B4000 Launch Prohibited
+      
+   27 application 01003A200BD8A000 Launch Prohibited
+      
+   28 application 01003A400C3DA000 Launch Prohibited
+      
+   29 application 040078001CCF6000 Launch ApplicationUpdateRequired
+      app v0 (0.0.0)  
+   30 application 0400DC401FCE6000 Launch ApplicationUpdateRequired
+      app v0 (0.0.0)  
+   31 application 0400CBA0221EA000 Launch ApplicationUpdateRequired
+      app v0 (0.0.0)  
+   32 application 040003901FBC2000 Launch ApplicationUpdateRequired
+      app v0 (0.0.0)  
+   33 application 04009DE020850000 Launch ApplicationUpdateRequired
+      app v0 (0.0.0)  
+   34 application 04003DC020784000 Launch ApplicationUpdateRequired
+      app v0 (0.0.0)  
+   35 application 0400CA40208C8000 Launch ApplicationUpdateRequired
+      app v0 (0.0.0)  
+   36 application 04009570209F8000 Launch ApplicationUpdateRequired
+      app v0 (0.0.0)  
+   37 application 0400F6D020A02000 Launch ApplicationUpdateRequired
+      app v0 (0.0.0)  
+   38 application 0400408021236000 Launch ApplicationUpdateRequired
+      app v0 (0.0.0)  
+   39 application 04000470212CE000 Launch ApplicationUpdateRequired
+      app v0 (0.0.0)  
+   40 application 040047D020DB2000 Launch ApplicationUpdateRequired
+      app v0 (0.0.0)  
+   41 application 0400BBB020FF0000 Launch ApplicationUpdateRequired
+      app v0 (0.0.0)  
+   42 application 0400E23021102000 Launch ApplicationUpdateRequired
+      app v0 (0.0.0)  
+   43 application 0400FED0215A4000 Launch ApplicationUpdateRequired
+      app v0 (0.0.0)  
+   44 application 0400E140216D4000 Launch ApplicationUpdateRequired
+      app v0 (0.0.0)  
+   45 application 04006CC0223D2000 Launch ApplicationUpdateRequired
+      app v0 (0.0.0)  
+   46 application 0400DCC0223F8000 Launch ApplicationUpdateRequired
+      app v0 (0.0.0)  
+   47 application 04005C902322C000 Launch ApplicationUpdateRequired
+      app v0 (0.0.0)  
+   48 application 0400E32022656000 Launch ApplicationUpdateRequired
+      app v0 (0.0.0)  
+   49 application 04008980227DC000 Launch ApplicationUpdateRequired
+      app v0 (0.0.0)  
+   50 application 04005CC022C9E000 Launch ApplicationUpdateRequired
+      app v0 (0.0.0)  
+   51 application 0400959022CA2000 Launch ApplicationUpdateRequired
+      app v0 (0.0.0)  
+   52 application 0400CE7022F4A000 Launch ApplicationUpdateRequired
+      app v0 (0.0.0)  
+   53 application 0400F4E022F4C000 Launch ApplicationUpdateRequired
+      app v0 (0.0.0)  
+   54 application 04003FB022F4E000 Launch ApplicationUpdateRequired
+      app v0 (0.0.0)  
+   55 application 0400EBD0236AE000 Launch ApplicationUpdateRequired
+      app v0 (0.0.0)  
+
